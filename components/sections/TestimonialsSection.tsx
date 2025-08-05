@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Marquee } from "@/components/magicui/marquee";
 
 const testimonials = [
@@ -67,15 +68,17 @@ const TestimonialCard = ({ testimonial }: { testimonial: typeof testimonials[0] 
 
       {/* Content */}
       <blockquote className="flex-1 text-gray-700 dark:text-gray-300 mb-4">
-        "{testimonial.content}"
+        &ldquo;{testimonial.content}&rdquo;
       </blockquote>
 
       {/* Author */}
       <div className="flex items-center">
-        <img
+        <Image
           className="w-12 h-12 rounded-full mr-4"
           src={testimonial.avatar}
           alt={testimonial.name}
+          width={48}
+          height={48}
         />
         <div>
           <div className="font-semibold text-gray-900 dark:text-white">

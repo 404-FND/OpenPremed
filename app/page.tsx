@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/sections/HeroSection";
 import FeaturesSection from "@/components/sections/FeaturesSection";
-import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import CTASection from "@/components/sections/CTASection";
 import Footer from "@/components/Footer";
 
@@ -12,7 +11,6 @@ export default function Home() {
       <main className="pt-16">
         <HeroSection />
         <FeaturesSection />
-        <TestimonialsSection />
         <CTASection />
       </main>
       <Footer />

@@ -15,8 +15,6 @@ const features = [
 
 const firstRow = features.slice(0, 3);
 const secondRow = features.slice(3, 6);
-const thirdRow = features.slice(6, 9);
-const fourthRow = features.slice(9, 12);
 
 export default function FeaturesSection() {
   return (
