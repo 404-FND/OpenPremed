@@ -3,6 +3,7 @@ import HeroSection from "@/components/sections/HeroSection";
 import FeaturesSection from "@/components/sections/FeaturesSection";
 import CTASection from "@/components/sections/CTASection";
 import Footer from "@/components/Footer";
+import TestimonialsSection from "@/components/sections/TestimonialsSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <main className="pt-16">
         <HeroSection />
         <FeaturesSection />
+        <TestimonialsSection />
         <CTASection />
       </main>
       <Footer />
