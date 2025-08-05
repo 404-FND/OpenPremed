@@ -103,7 +103,7 @@ export default function ChangelogPage() {
               Changelog
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 leading-relaxed">
-              Track our progress and see what's new
+              Track our progress and see what&apos;s new
             </p>
           </div>
         </section>

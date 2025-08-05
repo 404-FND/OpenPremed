@@ -57,7 +57,7 @@ export default function AboutPage() {
               About OpenPremed
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 leading-relaxed">
-              We're on a mission to democratize medical education
+              We&apos;re on a mission to democratize medical education
             </p>
           </div>
         </section>
@@ -79,11 +79,11 @@ export default function AboutPage() {
               </p>
               
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
-                We're committed to increasing transparency in every aspect of our platform. From our open-source codebase to our community-driven content creation process, we believe that transparency builds trust and fosters innovation. Every study material, practice question, and feature is developed with input from our global community of students, educators, and medical professionals.
+                We&apos;re committed to increasing transparency in every aspect of our platform. From our open-source codebase to our community-driven content creation process, we believe that transparency builds trust and fosters innovation. Every study material, practice question, and feature is developed with input from our global community of students, educators, and medical professionals.
               </p>
               
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                By centralizing resources and maintaining complete transparency, we're not just creating another study platform—we're building a movement that empowers students from all backgrounds to pursue their medical dreams without financial barriers.
+                By centralizing resources and maintaining complete transparency, we&apos;re not just creating another study platform—we&apos;re building a movement that empowers students from all backgrounds to pursue their medical dreams without financial barriers.
               </p>
             </div>
           </div>
@@ -120,7 +120,7 @@ export default function AboutPage() {
                   Community
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400">
-                  We're built by the community, for the community. Your feedback and contributions drive everything we do.
+                  We&apos;re built by the community, for the community. Your feedback and contributions drive everything we do.
                 </p>
               </div>
             </div>
